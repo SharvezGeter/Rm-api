@@ -9,11 +9,11 @@ const Cards =({characters}) => {
                 <img src={card.image} className="card-img-top" alt="..." height='500 px' width='50 px'/>
                 <div className="card-body">
                     <h5 className="card-title">Character</h5>
-                    <p className="card-text">Name: {card.name}</p>
-                    <p className="card-text">Status: {card.status}</p>
-                    <p className="card-text">Species: {card.species}</p>
+                   <center><p className="card-text">Name: {card.name}</p> </center> 
                     <p className="card-text">Gender: {card.gender}</p>
-                
+                    <p className="card-text">Species: {card.species}</p>
+                    <p className="card-text">Status: {card.status}</p>
+                    
                 </div>
             </div>
         )
