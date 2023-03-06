@@ -6,7 +6,7 @@ const Cards =({characters}) => {
        const theBlock = characters.map(card=>{
         return (
             <div className="card" width='50 px' height='50px'>
-                <img src={card.image} className="card-img-top" alt="..." height='50 px' width='50 px'/>
+                <img src={card.image} className="card-img-top" alt="..." height='500 px' width='50 px'/>
                 <div className="card-body">
                     <h5 className="card-title">Character</h5>
                     <p className="card-text">Name: {card.name}</p>
